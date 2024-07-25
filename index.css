@@ -126,7 +126,7 @@ a {
 
 .home-page-bg-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     margin: 0px;
     display: flex;
     flex-direction: column;
