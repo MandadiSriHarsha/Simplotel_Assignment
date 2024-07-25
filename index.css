@@ -44,6 +44,14 @@ button {
     }
 }
 
+@media screen and (min-width:768px) {
+    .menu-items-container {
+        width: 70%;
+        margin: auto;
+        justify-content: space-around;
+    }
+}
+
 .menu-item {
     font-family: "CanvaSans-Bold";
     border: none;
@@ -162,11 +170,23 @@ button {
 }
 
 .home-page-content-card-description {
-    font-size: 18px;
+    font-size: 14px;
     width: 100%;
     word-wrap: break-word;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 20px 0px;
+}
+
+@media screen and (min-width:576px) {
+    .home-page-content-card-description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .home-page-content-card-description {
+        font-size: 18px;
+    }
 }
 
 .order-page-bg-container {
