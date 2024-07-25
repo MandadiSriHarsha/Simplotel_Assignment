@@ -201,11 +201,11 @@ button {
     text-align: center;
     font-weight: bold;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Roboto";
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
     .order-page-main-heading {
         font-size: 50px;
     }
